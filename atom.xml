@@ -2,14 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://classbegin.com.cn</id>
     <title>牛奶大盗的老巢</title>
-    <updated>2020-03-07T13:39:06.750Z</updated>
+    <updated>2020-03-07T14:17:45.491Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://classbegin.com.cn"/>
     <link rel="self" href="https://classbegin.com.cn/atom.xml"/>
-    <subtitle>有牛奶偷牛奶，没有牛奶枪头牛</subtitle>
+    <subtitle>有牛奶偷牛奶，没有牛奶抢奶牛</subtitle>
     <logo>https://classbegin.com.cn/images/avatar.png</logo>
     <icon>https://classbegin.com.cn/favicon.ico</icon>
     <rights>All rights reserved 2020, 牛奶大盗的老巢</rights>
+    <entry>
+        <title type="html"><![CDATA[自主域名访问出问题]]></title>
+        <id>https://classbegin.com.cn/post/zi-zhu-yu-ming-fang-wen-chu-wen-ti/</id>
+        <link href="https://classbegin.com.cn/post/zi-zhu-yu-ming-fang-wen-chu-wen-ti/">
+        </link>
+        <updated>2020-03-07T14:12:53.000Z</updated>
+        <content type="html"><![CDATA[<p>试着第一次使用自己的域名访问网站。发生网站证书不安全事件，不知如何解决。小老白各种蒙圈中！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea不太好用啊]]></title>
+        <id>https://classbegin.com.cn/post/gridea-bu-tai-hao-yong-a/</id>
+        <link href="https://classbegin.com.cn/post/gridea-bu-tai-hao-yong-a/">
+        </link>
+        <updated>2020-03-07T14:10:44.000Z</updated>
+        <content type="html"><![CDATA[<p>今天第一次使用时，还是很好用的，但是在第二次使用时，发生卡顿。<br>
+他一直在同步，主题都换不了。难道是主题太大了？</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[你好]]></title>
         <id>https://classbegin.com.cn/post/ni-hao/</id>
