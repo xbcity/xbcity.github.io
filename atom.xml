@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://classbegin.com.cn</id>
     <title>牛奶大盗的老巢</title>
-    <updated>2020-03-07T14:20:59.590Z</updated>
+    <updated>2020-03-07T14:25:56.584Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://classbegin.com.cn"/>
     <link rel="self" href="https://classbegin.com.cn/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://classbegin.com.cn/images/avatar.png</logo>
     <icon>https://classbegin.com.cn/favicon.ico</icon>
     <rights>All rights reserved 2020, 牛奶大盗的老巢</rights>
+    <entry>
+        <title type="html"><![CDATA[看来是一个复杂主题的事儿]]></title>
+        <id>https://classbegin.com.cn/post/kan-lai-shi-yi-ge-fu-za-zhu-ti-de-shi-er/</id>
+        <link href="https://classbegin.com.cn/post/kan-lai-shi-yi-ge-fu-za-zhu-ti-de-shi-er/">
+        </link>
+        <updated>2020-03-07T14:24:20.000Z</updated>
+        <content type="html"><![CDATA[<p>只要一使用这个下载的主题，同步就会失效！改天有空，想试试wordpress有啥区别，哪一个功能更加强大一些！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我去竟然好用了]]></title>
         <id>https://classbegin.com.cn/post/wo-qu-jing-ran-hao-yong-liao/</id>
