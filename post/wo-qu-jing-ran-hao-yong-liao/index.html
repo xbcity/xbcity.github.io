@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | 牛奶大盗的老巢</title>
+<title>我去竟然好用了 | 牛奶大盗的老巢</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,21 @@
 <link rel="stylesheet" href="https://classbegin.com.cn/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="有牛奶偷牛奶，没有牛奶抢奶牛">
+    <meta name="description" content="刚才还同步不了呢！重启了一下电脑，竟然好用了！可以同步了！
+" />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,12 +96,36 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">我去竟然好用了</h2>
+            <div class="post-date">2020-03-07</div>
             
-              <a class="tag" href="https://classbegin.com.cn/tag/HZStBBxY5/">Gridea</a>
+            <div class="post-content" v-pre>
+              <p>刚才还同步不了呢！重启了一下电脑，竟然好用了！可以同步了！</p>
+
+            </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://classbegin.com.cn/post/zi-zhu-yu-ming-fang-wen-chu-wen-ti/">
+                  <h3 class="post-title">
+                    自主域名访问出问题
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -113,6 +145,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '76bb5a75a8a394163323',
+        clientSecret: 'e7782c687874401f2294cf7ea68e5150e7673e9a',
+        repo: 'xbcity.github.io',
+        owner: 'xbcity',
+        admin: ['xbcity'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
